@@ -1,0 +1,31 @@
+/* Accordion container */
+.accordion {
+    width: 100%;
+  }
+  
+  /* Accordion item */
+  .accordion-item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Accordion title */
+  .accordion-title {
+    background-color: #f4f4f4;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Active state for accordion title */
+  .accordion-title.active {
+    background-color: #ddd;
+  }
+  
+  /* Accordion content */
+  .accordion-content {
+    padding: 10px;
+    background-color: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+  
